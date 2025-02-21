@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.field{
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(15,1fr);
+    gap: 1px;
+    width: 60vw;
+    height: 60vh;
+}
+.cell{
+    background: gray;
+}
+.color-cell, .tool-cell{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.tool-cell img{
+    width: 80%;
+    height: 80%;
+    background: white;
+    padding: 10%;
+}
+.container{
+    display: flex;
+    padding: 10px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
